@@ -20,3 +20,14 @@ while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')):
 newPath = myDirectory + "/IMG"+str(countFolder)
 os.makedirs(newPath)
 
+#save images in folder
+def saveData(img,steering):
+    global imgList, steeringList
+    now = datetime.now()
+    timestamp = str(datetime.timestamp(now)).replace('.', '')
+    #print("timestamp =", timestamp)
+    fileName = os.path.join(newPath,f'Image_{timestamp}.jpg')
+    cv2.imwrite(fileName, img)
+    imgList.append(fileName)
+    steeringList.append(steering)
+
