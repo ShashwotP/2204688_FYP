@@ -31,3 +31,12 @@ def saveData(img,steering):
     imgList.append(fileName)
     steeringList.append(steering)
 
+#saves log file when file is saved
+def saveLog():
+    global imgList, steeringList
+    rawData = {'Image': imgList,
+                'Steering': steeringList}
+    df = pd.DataFrame(rawData)
+    df.to_csv(os.path.join(myDirectory,f'log_{str(countFolder)}.csv'), index=False, header=False)
+    print('Log Saved')
+    print('Total Images: ',len(imgList))
