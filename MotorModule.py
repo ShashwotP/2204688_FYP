@@ -21,3 +21,17 @@ class Motor():
         self.pwmA.start(0);
         self.pwmB = GPIO.PWM(self.EnaB, 100);
         self.pwmB.start(0);
+
+    def move(self, speed=0.5, turn=0, t=0):
+        speed *= 100
+        turn *= 100
+        leftSpeed = speed - turn
+        rightSpeed = speed + turn
+        if leftSpeed > 100:
+            leftSpeed = 100
+        elif leftSpeed < -100:
+            leftSpeed = -100
+        if rightSpeed > 100:
+            rightSpeed = 100
+        elif rightSpeed < -100:
+            rightSpeed = -100
