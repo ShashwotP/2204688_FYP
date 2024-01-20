@@ -35,3 +35,7 @@ class Motor():
             rightSpeed = 100
         elif rightSpeed < -100:
             rightSpeed = -100
+
+        self.pwmA.ChangeDutyCycle(abs(leftSpeed))
+        self.pwmB.ChangeDutyCycle(abs(rightSpeed))
+
