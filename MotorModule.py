@@ -39,3 +39,10 @@ class Motor():
         self.pwmA.ChangeDutyCycle(abs(leftSpeed))
         self.pwmB.ChangeDutyCycle(abs(rightSpeed))
 
+        if leftSpeed > 0:
+            GPIO.output(self.In1A, GPIO.HIGH)
+            GPIO.output(self.In2A, GPIO.LOW)
+        else:
+            GPIO.output(self.In1A, GPIO.LOW)
+            GPIO.output(self.In2A, GPIO.HIGH)
+
