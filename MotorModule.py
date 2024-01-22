@@ -46,3 +46,9 @@ class Motor():
             GPIO.output(self.In1A, GPIO.LOW)
             GPIO.output(self.In2A, GPIO.HIGH)
 
+        if rightSpeed > 0:
+            GPIO.output(self.In1B, GPIO.HIGH)
+            GPIO.output(self.In2B, GPIO.LOW)
+        else:
+            GPIO.output(self.In1B, GPIO.LOW)
+            GPIO.output(self.In2B, GPIO.HIGH)
