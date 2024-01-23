@@ -52,3 +52,7 @@ class Motor():
         else:
             GPIO.output(self.In1B, GPIO.LOW)
             GPIO.output(self.In2B, GPIO.HIGH)
+
+            sleep(t)
+
+    def stop(self, t=0):
