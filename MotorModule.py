@@ -56,3 +56,6 @@ class Motor():
             sleep(t)
 
     def stop(self, t=0):
+        self.pwmA.ChangeDutyCycle(0);
+        self.pwmB.ChangeDutyCycle(0);
+        sleep(t)
