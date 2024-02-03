@@ -53,15 +53,25 @@ class Motor():
             GPIO.output(self.In1B, GPIO.LOW)
             GPIO.output(self.In2B, GPIO.HIGH)
 
-            sleep(t)
+        sleep(t)
 
     def stop(self, t=0):
         self.pwmA.ChangeDutyCycle(0);
         self.pwmB.ChangeDutyCycle(0);
         sleep(t)
 
-    def main():
-        motor.move(0.6, 0, 2)
-        motor.stop(2)
-        motor.move(-0.5, 0.2, 2)
-        motor.stop(2)
+    # def main():
+    #     motor.move(0.6, 0, 2)
+    #     motor.stop(2)
+    #     motor.move(-0.5, 0.2, 2)
+    #     motor.stop(2)
+
+
+
+
+
+
+
+
+
+
