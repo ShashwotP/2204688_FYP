@@ -8,3 +8,11 @@ def main():
     motor.stop(2)
     motor.move(-0.5, 0.2, 2)
     motor.stop(2)
+
+
+
+
+
+
+
+
