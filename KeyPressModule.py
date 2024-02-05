@@ -15,3 +15,12 @@ def getKey(keyName):
     pygame.display.update()
     return ans
 
+def main():
+    if getKey('a'):
+        print('Key a was pressed')
+    if getKey('b'):
+        print('Key b was pressed')
+    if getKey('LEFT'):
+        print('Key left was pressed')
+    if getKey('RIGHT'):
+        print('Key right was pressed')
