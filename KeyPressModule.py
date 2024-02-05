@@ -24,3 +24,12 @@ def main():
         print('Key left was pressed')
     if getKey('RIGHT'):
         print('Key right was pressed')
+
+
+if __name__ == '__main__':
+    init()
+    while True:
+        main()
+
+
+
