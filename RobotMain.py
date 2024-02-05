@@ -11,6 +11,8 @@ def main():
         motor.move(0.6,0,0.1)
     elif kp.getKey('DOWN'):
         motor.move(-0.6,0,0.1)
+    elif kp.getKey('LEFT'):
+        motor.move(0.5,0.3,0.1)
 
 
 
