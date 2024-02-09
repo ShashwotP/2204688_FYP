@@ -8,6 +8,8 @@ kp.init()
 
 
 def main():
+    if kp.getKey('UP'):
+        motor.move(0.6,0,0.1)
 
 
 
