@@ -7,6 +7,8 @@ import KeyPressModule as kp
 kp.init()
 
 
+def main():
+
 
 
 
