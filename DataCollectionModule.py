@@ -8,3 +8,8 @@ countFolder = 0
 count = 0
 imgList = []
 steeringList = []
+
+#get current directory path
+myDirectory = os.path.join(os.getcwd(), 'DataCollected')
+print("Hello********************")
+print(myDirectory)
