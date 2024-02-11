@@ -16,3 +16,4 @@ print(myDirectory)
 
 #creates a new folder that is based on previous folder count
 while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')):
+    countFolder += 1
