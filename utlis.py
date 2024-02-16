@@ -9,3 +9,4 @@ def thresholding(img):#thresholding function
     return maskedWhite
 
 def warpImg (img,points,w,h,inv=False):
+    pts1 = np.float32(points)
