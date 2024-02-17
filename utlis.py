@@ -17,3 +17,6 @@ def warpImg (img,points,w,h,inv=False):
         matrix = cv2.getPerspectiveTransform(pts1, pts2)
     imgWarp = cv2.warpPerspective(img, matrix, (w, h))
     return imgWarp
+
+def nothing(a):
+    pass
