@@ -20,3 +20,5 @@ def warpImg (img,points,w,h,inv=False):
 
 def nothing(a):
     pass
+
+def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
