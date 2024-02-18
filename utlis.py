@@ -23,3 +23,4 @@ def nothing(a):
 
 def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
     cv2.namedWindow("Trackbars")
+    cv2.resizeWindow("Trackbars", 360, 240)
