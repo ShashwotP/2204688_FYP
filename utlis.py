@@ -25,3 +25,4 @@ def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
     cv2.namedWindow("Trackbars")
     cv2.resizeWindow("Trackbars", 360, 240)
     cv2.createTrackbar("Width Top", "Trackbars", intialTracbarVals[0], wT // 2, nothing)
+    cv2.createTrackbar("Height Top", "Trackbars", intialTracbarVals[1], hT, nothing)
