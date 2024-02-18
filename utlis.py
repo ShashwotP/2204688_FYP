@@ -22,3 +22,4 @@ def nothing(a):
     pass
 
 def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
+    cv2.namedWindow("Trackbars")
