@@ -33,3 +33,4 @@ def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
 def valTrackbars(wT=480, hT=240):
     widthTop = cv2.getTrackbarPos("Width Top", "Trackbars")
     heightTop = cv2.getTrackbarPos("Height Top", "Trackbars")
+    widthBottom = cv2.getTrackbarPos("Width Bottom", "Trackbars")
