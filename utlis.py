@@ -37,3 +37,4 @@ def valTrackbars(wT=480, hT=240):
     heightBottom = cv2.getTrackbarPos("Height Bottom", "Trackbars")
     points = np.float32([(widthTop, heightTop), (wT - widthTop, heightTop),
                          (widthBottom, heightBottom), (wT - widthBottom, heightBottom)])
+    return points
