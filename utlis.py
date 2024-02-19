@@ -28,3 +28,6 @@ def initializeTrackbars(intialTracbarVals,wT=480, hT=240):
     cv2.createTrackbar("Height Top", "Trackbars", intialTracbarVals[1], hT, nothing)
     cv2.createTrackbar("Width Bottom", "Trackbars", intialTracbarVals[2], wT // 2, nothing)
     cv2.createTrackbar("Height Bottom", "Trackbars", intialTracbarVals[3], hT, nothing)
+
+
+def valTrackbars(wT=480, hT=240):
