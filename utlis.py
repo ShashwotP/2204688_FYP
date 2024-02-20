@@ -38,3 +38,5 @@ def valTrackbars(wT=480, hT=240):
     points = np.float32([(widthTop, heightTop), (wT - widthTop, heightTop),
                          (widthBottom, heightBottom), (wT - widthBottom, heightBottom)])
     return points
+
+def drawPoints(img,points):
