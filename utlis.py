@@ -40,3 +40,4 @@ def valTrackbars(wT=480, hT=240):
     return points
 
 def drawPoints(img,points):
+    for x in range( 0,4):
