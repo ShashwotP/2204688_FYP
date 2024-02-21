@@ -51,4 +51,5 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
         histValues = np.sum(img[img.shape[0] // region:, :], axis=0)
         # histValues = np.sum(img, axis=0)
         # print(histValues)
+        maxValue = np.max(histValues)  # FIND THE MAX VALUE
 
