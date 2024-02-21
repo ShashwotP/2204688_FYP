@@ -45,3 +45,4 @@ def drawPoints(img,points):
     return img
 
 def getHistogram(img, display=False, minPer=0.1, region=4):
+    if region == 1:
