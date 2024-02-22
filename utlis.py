@@ -67,4 +67,5 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
             else:
                 color = (0, 0, 255)
                 ##intensity // 255
+            print('Value', (type(x), type(int(img.shape[0] - (intensity // 255 // region)))))
 
