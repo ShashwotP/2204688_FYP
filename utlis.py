@@ -55,4 +55,7 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
         # print(maxValue)
     minValue = minPer * maxValue
     indexArray = np.where(histValues >= minValue)  # ALL INDICES WITH MIN VALUE OR ABOVE
+    basePoint = int(np.average(indexArray))  # AVERAGE ALL MAX INDICES VALUES
+    # print(basePoint)
+
 
