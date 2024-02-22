@@ -58,4 +58,5 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
     basePoint = int(np.average(indexArray))  # AVERAGE ALL MAX INDICES VALUES
     # print(basePoint)
 
+    if display:
 
