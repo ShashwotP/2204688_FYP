@@ -69,4 +69,5 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
                 ##intensity // 255
             print('Value', (type(x), type(int(img.shape[0] - (intensity // 255 // region)))))
             cv2.line(imgHist, (x, img.shape[0]), (x, img.shape[0] - (intensity // 255 // region)), color, 1)
+        cv2.circle(imgHist, (basePoint, img.shape[0]), 20, (0, 255, 255), cv2.FILLED)
 
