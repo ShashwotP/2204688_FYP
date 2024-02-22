@@ -64,4 +64,7 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
             # print(intensity)
             if intensity > minValue:
                 color = (255, 0, 255)
+            else:
+                color = (0, 0, 255)
+                ##intensity // 255
 
