@@ -76,3 +76,4 @@ def getHistogram(img, display=False, minPer=0.1, region=4):
 
 def stackImages(scale,imgArray):
     rows = len(imgArray)
+    cols = len(imgArray[0])
