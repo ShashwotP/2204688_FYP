@@ -80,3 +80,5 @@ def stackImages(scale,imgArray):
     rowsAvailable = isinstance(imgArray[0], list)
     width = imgArray[0][0].shape[1]
     height = imgArray[0][0].shape[0]
+    if rowsAvailable:
+
