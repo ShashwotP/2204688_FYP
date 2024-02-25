@@ -87,10 +87,11 @@ def stackImages(scale,imgArray):
                     imgArray[x][y] = cv2.resize(imgArray[x][y], (0, 0), None, scale, scale)
                 else:
                     imgArray[x][y] = cv2.resize(imgArray[x][y], (imgArray[0][0].shape[1], imgArray[0][0].shape[0]),
+                                                None, scale, scale)
                 if len(imgArray[x][y].shape) == 2: imgArray[x][y] = cv2.cvtColor(imgArray[x][y], cv2.COLOR_GRAY2BGR)
-                imageBlank = np.zeros((height, width, 3), np.uint8)
-                hor = [imageBlank] * rows
-                hor_con = [imageBlank] * rows
-                for x in range(0, rows):
-                    hor[x] = np.hstack(imgArray[x])
-                ver = np.vstack(hor
+            imageBlank = np.zeros((height, width, 3), np.uint8)
+            hor = [imageBlank] * rows
+            hor_con = [imageBlank] * rows
+            for x in range(0, rows):
+                hor[x] = np.hstack(imgArray[x])
+            ver = np.vstack(hor)
