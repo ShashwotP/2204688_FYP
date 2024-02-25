@@ -88,6 +88,7 @@ def stackImages(scale,imgArray):
                 else:
                     imgArray[x][y] = cv2.resize(imgArray[x][y], (imgArray[0][0].shape[1], imgArray[0][0].shape[0]),
                     if len(imgArray[x][y].shape) == 2: imgArray[x][y] = cv2.cvtColor(imgArray[x][y], cv2.COLOR_GRAY2BGR)
+                        imageBlank = np.zeros((height, width, 3), np.uint8)
 
 
 
