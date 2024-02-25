@@ -91,5 +91,5 @@ def stackImages(scale,imgArray):
                 imageBlank = np.zeros((height, width, 3), np.uint8)
                 hor = [imageBlank] * rows
                 hor_con = [imageBlank] * rows
-
+                for x in range(0, rows):
 
