@@ -96,4 +96,7 @@ def stackImages(scale,imgArray):
                 hor[x] = np.hstack(imgArray[x])
             ver = np.vstack(hor)
         else:
+            for x in range(0, rows):
+
+
 
