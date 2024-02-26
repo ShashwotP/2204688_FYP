@@ -97,6 +97,7 @@ def stackImages(scale,imgArray):
             ver = np.vstack(hor)
         else:
             for x in range(0, rows):
+                if imgArray[x].shape[:2] == imgArray[0].shape[:2]:
 
 
 
