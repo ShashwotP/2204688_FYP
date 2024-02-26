@@ -98,6 +98,7 @@ def stackImages(scale,imgArray):
         else:
             for x in range(0, rows):
                 if imgArray[x].shape[:2] == imgArray[0].shape[:2]:
+                    imgArray[x] = cv2.resize(imgArray[x], (0, 0), None, scale, scale)
 
 
 
