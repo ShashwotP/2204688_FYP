@@ -103,6 +103,8 @@ def stackImages(scale,imgArray):
                     imgArray[x] = cv2.resize(imgArray[x], (imgArray[0].shape[1], imgArray[0].shape[0]), None, scale,
                                              scale)
                 if len(imgArray[x].shape) == 2: imgArray[x] = cv2.cvtColor(imgArray[x], cv2.COLOR_GRAY2BGR)
+            hor = np.hstack(imgArray)
+
 
 
 
