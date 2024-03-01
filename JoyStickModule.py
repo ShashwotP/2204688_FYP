@@ -11,6 +11,8 @@ buttons = {'x':0,'o':0,'s':0,'t':0,
 axiss=[0.,0.,0.,0.,0.,0.]
 def getJS(name=''):
     global buttons
+    # retrieve any events ...
+    for event in pygame.event.get():  # Analog Sticks
 
 
 
