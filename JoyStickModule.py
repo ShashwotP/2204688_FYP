@@ -13,6 +13,7 @@ def getJS(name=''):
     global buttons
     # retrieve any events ...
     for event in pygame.event.get():  # Analog Sticks
+        if event.type == pygame.JOYAXISMOTION:
 
 
 
