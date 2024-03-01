@@ -16,6 +16,9 @@ def getJS(name=''):
         if event.type == pygame.JOYAXISMOTION:
             axiss[event.axis] = round(event.value, 2)
         elif event.type == pygame.JOYBUTTONDOWN:  # When button pressed
+            # print(event.dict, event.joy, event.button, 'PRESSED')
+            for x, (key, val) in enumerate(buttons.items()):
+
 
 
 
