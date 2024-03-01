@@ -15,6 +15,7 @@ def getJS(name=''):
     for event in pygame.event.get():  # Analog Sticks
         if event.type == pygame.JOYAXISMOTION:
             axiss[event.axis] = round(event.value, 2)
+        elif event.type == pygame.JOYBUTTONDOWN:  # When button pressed
 
 
 
