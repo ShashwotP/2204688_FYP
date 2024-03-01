@@ -14,6 +14,7 @@ def getJS(name=''):
     # retrieve any events ...
     for event in pygame.event.get():  # Analog Sticks
         if event.type == pygame.JOYAXISMOTION:
+            axiss[event.axis] = round(event.value, 2)
 
 
 
