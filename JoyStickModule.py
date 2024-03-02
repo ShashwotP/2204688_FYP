@@ -19,6 +19,8 @@ def getJS(name=''):
             # print(event.dict, event.joy, event.button, 'PRESSED')
             for x, (key, val) in enumerate(buttons.items()):
                 if x < 10:
+                    if controller.get_button(x): buttons[key] = 1
+
 
 
 
