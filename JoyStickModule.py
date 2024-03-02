@@ -24,6 +24,9 @@ def getJS(name=''):
                         # print(event.dict, event.joy, event.button, 'released')
                         for x, (key, val) in enumerate(buttons.items()):
                             if x < 10:
+                                if event.button == x: buttons[key] = 0
+
+
 
 
 
