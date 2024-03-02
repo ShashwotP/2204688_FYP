@@ -20,6 +20,8 @@ def getJS(name=''):
             for x, (key, val) in enumerate(buttons.items()):
                 if x < 10:
                     if controller.get_button(x): buttons[key] = 1
+                    elif event.type == pygame.JOYBUTTONUP:  # When button released
+
 
 
 
