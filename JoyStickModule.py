@@ -32,6 +32,9 @@ def getJS(name=''):
                                                                                                           axiss[3],
                                                                                                           axiss[4]]
                                 if name == '':
+                                    return buttons
+
+
 
 
 
