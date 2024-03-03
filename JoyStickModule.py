@@ -36,6 +36,7 @@ def getJS(name=''):
                                 else:
                                     return buttons[name]
 
+ def main():
 
 
 
