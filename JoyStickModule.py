@@ -26,6 +26,12 @@ def getJS(name=''):
                             if x < 10:
                                 if event.button == x: buttons[key] = 0
 
+                                # to remove element 2 since axis numbers are 0 1 3 4
+                                buttons['axis1'], buttons['axis2'], buttons['axis3'], buttons['axis4'] = [axiss[0],
+                                                                                                          axiss[1],
+                                                                                                          axiss[3],
+                                                                                                          axiss[4]]
+
 
 
 
