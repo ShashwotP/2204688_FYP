@@ -31,6 +31,7 @@ def getJS(name=''):
                                                                                                           axiss[1],
                                                                                                           axiss[3],
                                                                                                           axiss[4]]
+                                if name == '':
 
 
 
