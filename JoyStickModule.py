@@ -38,6 +38,8 @@ def getJS(name=''):
 
 #left
  def main():
+     print(getJS())  # To get all values
+
 
 
 
