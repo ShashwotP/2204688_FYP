@@ -39,6 +39,8 @@ def getJS(name=''):
 #left
  def main():
      print(getJS())  # To get all values
+     sleep(0.05)
+
 
 
 
