@@ -6,4 +6,5 @@ cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 while True:
     success, img = cap.read()
+    cv2.imshow("Result", img)
 
