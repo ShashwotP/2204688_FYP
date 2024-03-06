@@ -24,3 +24,5 @@ cap = cv2.VideoCapture(0)
 
 
 def getImg(display=False, size=[480, 240]):
+    _, img = cap.read()
+
