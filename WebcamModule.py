@@ -31,4 +31,6 @@ def getImg(display=False, size=[480, 240]):
     return img
 
  if __name__ == '__main__':
+     while True:
+
 
