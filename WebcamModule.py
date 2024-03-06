@@ -18,3 +18,5 @@ using the opencv package
 -Image size can be defined
 """
 
+import cv2
+
