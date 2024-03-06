@@ -30,4 +30,5 @@ def getImg(display=False, size=[480, 240]):
         cv2.imshow('IMG', img)
     return img
 
+ if __name__ == '__main__':
 
