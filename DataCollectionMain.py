@@ -6,3 +6,4 @@ import cv2
 from time import sleep
 
 
+maxThrottle = 0.25
