@@ -12,4 +12,5 @@ record = 0
 
 while True:
     joyVal = jsM.getJS()
+    # print(joyVal)
 
