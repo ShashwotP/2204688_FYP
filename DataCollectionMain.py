@@ -10,3 +10,4 @@ maxThrottle = 0.25
 motor = mM.Motor(2, 3, 4, 17, 22, 27)
 record = 0
 
+while True:
