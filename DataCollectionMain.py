@@ -25,6 +25,8 @@ while True:
         elif record == 2:
             dcM.saveLog()
             record = 0
+            if joyVal['o'] == 1:
+
 
 
 
