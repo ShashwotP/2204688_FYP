@@ -18,6 +18,7 @@ while True:
     if joyVal['share'] == 1:
         if record == 0: print('Recording Started ...')
         record += 1
+        sleep(0.300)
 
 
 
