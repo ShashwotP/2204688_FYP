@@ -17,6 +17,8 @@ while True:
     throttle = joyVal['o'] * maxThrottle
     if joyVal['share'] == 1:
         if record == 0: print('Recording Started ...')
+        record += 1
+
 
 
 
