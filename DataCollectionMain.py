@@ -24,6 +24,8 @@ while True:
             dcM.saveData(img, steering)
         elif record == 2:
             dcM.saveLog()
+            record = 0
+
 
 
 
