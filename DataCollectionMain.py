@@ -16,4 +16,5 @@ while True:
 
 
     steering = joyVal['axis1']
+    throttle = joyVal['o'] * maxThrottle
 
