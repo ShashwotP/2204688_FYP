@@ -20,6 +20,8 @@ while True:
         record += 1
         sleep(0.300)
         if record == 1:
+            img = wM.getImg(True, size=[240, 120])
+
 
 
 
