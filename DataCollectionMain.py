@@ -28,6 +28,9 @@ while True:
             if joyVal['o'] == 1:
                 motor.move(throttle, 0)
             else:
+                motor.move(throttle, -steering)
+
+
 
 
 
