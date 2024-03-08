@@ -27,6 +27,8 @@ while True:
             record = 0
             if joyVal['o'] == 1:
                 motor.move(throttle, 0)
+            else:
+
 
 
 
