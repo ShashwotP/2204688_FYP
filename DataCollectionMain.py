@@ -13,9 +13,11 @@ record = 0
 while True:
     joyVal = jsM.getJS()
     # print(joyVal)
-
-
     steering = joyVal['axis1']
     throttle = joyVal['o'] * maxThrottle
     if joyVal['share'] == 1:
+        if record == 0: print('Recording Started ...')
+
+
+
 
