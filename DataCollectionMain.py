@@ -21,6 +21,7 @@ while True:
         sleep(0.300)
         if record == 1:
             img = wM.getImg(True, size=[240, 120])
+            dcM.saveData(img, steering)
 
 
 
