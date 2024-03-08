@@ -22,7 +22,7 @@ while True:
         if record == 1:
             img = wM.getImg(True, size=[240, 120])
             dcM.saveData(img, steering)
-
+        elif record == 2:
 
 
 
