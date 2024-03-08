@@ -29,6 +29,7 @@ while True:
                 motor.move(throttle, 0)
             else:
                 motor.move(throttle, -steering)
+                cv2.waitKey(1)
 
 
 
