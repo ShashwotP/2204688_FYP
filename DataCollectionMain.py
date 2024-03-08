@@ -14,3 +14,6 @@ while True:
     joyVal = jsM.getJS()
     # print(joyVal)
 
+
+    steering = joyVal['axis1']
+
