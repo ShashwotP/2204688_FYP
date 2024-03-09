@@ -29,6 +29,6 @@ def saveData(img,steering):
     fileName = os.path.join(newPath, f'Image_{timestamp}.jpg')
     cv2.imwrite(fileName, img)
     imgList.append(fileName)
-
+    steeringList.append(steering)
 
 
