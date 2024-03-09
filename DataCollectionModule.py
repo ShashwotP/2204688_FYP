@@ -22,3 +22,5 @@ os.makedirs(newPath)
 
 # SAVE IMAGES IN THE FOLDER
 def saveData(img,steering):
+    global imgList, steeringList
+
