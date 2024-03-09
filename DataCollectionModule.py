@@ -25,6 +25,7 @@ def saveData(img,steering):
     global imgList, steeringList
     now = datetime.now()
     timestamp = str(datetime.timestamp(now)).replace('.', '')
+    # print("timestamp =", timestamp)
 
 
 
