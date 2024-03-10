@@ -34,3 +34,5 @@ def saveData(img,steering):
 # SAVE LOG FILE WHEN THE SESSION ENDS
 def saveLog():
     global imgList, steeringList
+    rawData = {'Image': imgList,
+               'Steering': steeringList}
