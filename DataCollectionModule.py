@@ -36,3 +36,4 @@ def saveLog():
     global imgList, steeringList
     rawData = {'Image': imgList,
                'Steering': steeringList}
+    df = pd.DataFrame(rawData)
