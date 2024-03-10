@@ -31,4 +31,4 @@ def saveData(img,steering):
     imgList.append(fileName)
     steeringList.append(steering)
 
-
+# SAVE LOG FILE WHEN THE SESSION ENDS
