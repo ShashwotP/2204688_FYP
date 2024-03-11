@@ -46,3 +46,4 @@ if __name__ == '__main__':
     for x in range(10):
         _, img = cap.read()
         print(img)
+        saveData(img, 0.5)
