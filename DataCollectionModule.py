@@ -40,3 +40,5 @@ def saveLog():
     df.to_csv(os.path.join(myDirectory, f'log_{str(countFolder)}.csv'), index=False, header=False)
     print('Log Saved')
     print('Total Images: ', len(imgList))
+
+if __name__ == '__main__':
