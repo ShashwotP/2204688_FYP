@@ -47,3 +47,4 @@ if __name__ == '__main__':
         _, img = cap.read()
         print(img)
         saveData(img, 0.5)
+        cv2.waitKey(1)
