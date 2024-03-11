@@ -44,3 +44,4 @@ def saveLog():
 if __name__ == '__main__':
     cap = cv2.VideoCapture(0)
     for x in range(10):
+        _, img = cap.read()
