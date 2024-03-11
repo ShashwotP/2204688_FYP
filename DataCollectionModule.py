@@ -48,3 +48,4 @@ if __name__ == '__main__':
         print(img)
         saveData(img, 0.5)
         cv2.waitKey(1)
+        cv2.imshow("Image", img)
