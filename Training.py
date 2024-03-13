@@ -8,3 +8,4 @@ from utlis import *
 path = 'DataCollected'
 data = importDataInfo(path)
 print(data.head())
+print(data['Center'][0])
