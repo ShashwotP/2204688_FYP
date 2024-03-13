@@ -7,3 +7,4 @@ from utlis import *
 #### STEP 1 - INITIALIZE DATA
 path = 'DataCollected'
 data = importDataInfo(path)
+print(data.head())
