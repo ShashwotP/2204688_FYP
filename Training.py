@@ -14,3 +14,4 @@ print(data['Center'][0])
 data = balanceData(data,display=True)
 
 #### STEP 3 - PREPARE FOR PROCESSING
+imagesPath, steerings = loadData(path,data)
