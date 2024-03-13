@@ -12,3 +12,5 @@ print(data['Center'][0])
 
 #### STEP 2 - VISUALIZE AND BALANCE DATA
 data = balanceData(data,display=True)
+
+#### STEP 3 - PREPARE FOR PROCESSING
