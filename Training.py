@@ -26,3 +26,5 @@ print('Total Training Images: ',len(xTrain))
 print('Total Validation Images: ',len(xVal))
 
 #### STEP 5 - AUGMENT DATA
+
+#### STEP 6 - PREPROCESS
