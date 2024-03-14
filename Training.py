@@ -16,3 +16,4 @@ data = balanceData(data,display=True)
 #### STEP 3 - PREPARE FOR PROCESSING
 imagesPath, steerings = loadData(path,data)
 # print('No of Path Created for Images ',len(imagesPath),len(steerings))
+# cv2.imshow('Test Image',cv2.imread(imagesPath[5]))
