@@ -20,3 +20,5 @@ imagesPath, steerings = loadData(path,data)
 # cv2.waitKey(0)
 
 #### STEP 4 - SPLIT FOR TRAINING AND VALIDATION
+xTrain, xVal, yTrain, yVal = train_test_split(imagesPath, steerings,
+                                              test_size=0.2,random_state=10)
