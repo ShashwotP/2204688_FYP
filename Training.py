@@ -18,3 +18,5 @@ imagesPath, steerings = loadData(path,data)
 # print('No of Path Created for Images ',len(imagesPath),len(steerings))
 # cv2.imshow('Test Image',cv2.imread(imagesPath[5]))
 # cv2.waitKey(0)
+
+#### STEP 4 - SPLIT FOR TRAINING AND VALIDATION
