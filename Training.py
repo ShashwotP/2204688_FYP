@@ -28,3 +28,5 @@ print('Total Validation Images: ',len(xVal))
 #### STEP 5 - AUGMENT DATA
 
 #### STEP 6 - PREPROCESS
+
+#### STEP 7 - CREATE MODEL
