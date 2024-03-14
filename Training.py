@@ -30,3 +30,4 @@ print('Total Validation Images: ',len(xVal))
 #### STEP 6 - PREPROCESS
 
 #### STEP 7 - CREATE MODEL
+model.save('model.h5')
