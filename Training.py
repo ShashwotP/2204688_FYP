@@ -31,3 +31,5 @@ print('Total Validation Images: ',len(xVal))
 
 #### STEP 7 - CREATE MODEL
 model = createModel()
+
+#### STEP 8 - TRAINNING
