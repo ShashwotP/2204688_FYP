@@ -40,3 +40,4 @@ history = model.fit(dataGen(xTrain, yTrain, 100, 1),
                                   validation_steps=50)
 
 #### STEP 9 - SAVE THE MODEL
+model.save('model.h5')
