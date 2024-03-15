@@ -44,3 +44,4 @@ model.save('model.h5')
 print('Model Saved')
 
 #### STEP 10 - PLOT THE RESULTS
+plt.plot(history.history['loss'])
