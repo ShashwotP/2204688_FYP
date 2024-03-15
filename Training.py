@@ -48,4 +48,4 @@ plt.plot(history.history['loss'])
 plt.plot(history.history['val_loss'])
 plt.legend(['Training', 'Validation'])
 plt.title('Loss')
-
+plt.xlabel('Epoch')
