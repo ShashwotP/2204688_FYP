@@ -12,3 +12,5 @@ import matplotlib.image as mpimg
 from imgaug import augmenters as iaa
 
 import random
+
+#### STEP 1 - INITIALIZE DATA
