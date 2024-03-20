@@ -14,3 +14,4 @@ from imgaug import augmenters as iaa
 import random
 
 #### STEP 1 - INITIALIZE DATA
+def getName(filePath):
