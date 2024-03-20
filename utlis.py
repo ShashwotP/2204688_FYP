@@ -17,4 +17,4 @@ import random
 def getName(filePath):
     myImagePathL = filePath.split('/')[-2:]
     folder_name = myImagePathL[-2]
-
+    print(folder_name)
