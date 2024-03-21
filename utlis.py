@@ -22,5 +22,5 @@ def getName(filePath):
     # print(myImagePath)
     return myImagePath
 
-
+def importDataInfo(path):
 
