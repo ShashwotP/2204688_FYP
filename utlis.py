@@ -20,7 +20,7 @@ def getName(filePath):
     print(folder_name)
     myImagePath = os.path.join(myImagePathL[0], myImagePathL[1])
     # print(myImagePath)
-
+    return myImagePath
 
 
 
