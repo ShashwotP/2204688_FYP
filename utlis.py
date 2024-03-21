@@ -18,3 +18,8 @@ def getName(filePath):
     myImagePathL = filePath.split('/')[-2:]
     folder_name = myImagePathL[-2]
     print(folder_name)
+    myImagePath = os.path.join(myImagePathL[0], myImagePathL[1])
+
+
+
+
