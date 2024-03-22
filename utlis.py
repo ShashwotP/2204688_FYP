@@ -26,6 +26,7 @@ def importDataInfo(path):
     columns = ['Center', 'Steering']
     noOfFolders = len(os.listdir(path)) // 2
     data = pd.DataFrame()
+    for x in range(12, 17):
 
 
 
