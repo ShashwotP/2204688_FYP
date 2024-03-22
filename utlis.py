@@ -24,6 +24,9 @@ def getName(filePath):
 
 def importDataInfo(path):
     columns = ['Center', 'Steering']
+    noOfFolders = len(os.listdir(path)) // 2
+
+
 
 
 
