@@ -23,4 +23,7 @@ def getName(filePath):
     return myImagePath
 
 def importDataInfo(path):
+    columns = ['Center', 'Steering']
+
+
 
