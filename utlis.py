@@ -30,6 +30,7 @@ def importDataInfo(path):
         dataNew = pd.read_csv(os.path.join(path, f'log_{x}.csv'), names=columns)
         print(f'{x}:{dataNew.shape[0]} ', end='')
         #### REMOVE FILE PATH AND GET ONLY FILE NAME
+        # print(getName(data['center'][0]))
 
 
 
