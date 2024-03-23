@@ -29,6 +29,8 @@ def importDataInfo(path):
     for x in range(12, 17):
         dataNew = pd.read_csv(os.path.join(path, f'log_{x}.csv'), names=columns)
         print(f'{x}:{dataNew.shape[0]} ', end='')
+        #### REMOVE FILE PATH AND GET ONLY FILE NAME
+
 
 
 
