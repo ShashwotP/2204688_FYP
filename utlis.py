@@ -27,6 +27,8 @@ def importDataInfo(path):
     noOfFolders = len(os.listdir(path)) // 2
     data = pd.DataFrame()
     for x in range(12, 17):
+        dataNew = pd.read_csv(os.path.join(path, f'log_{x}.csv'), names=columns)
+
 
 
 
