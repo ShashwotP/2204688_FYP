@@ -31,6 +31,8 @@ def importDataInfo(path):
         print(f'{x}:{dataNew.shape[0]} ', end='')
         #### REMOVE FILE PATH AND GET ONLY FILE NAME
         # print(getName(data['center'][0]))
+        dataNew['Center'] = dataNew['Center'].apply(getName)
+
 
 
 
