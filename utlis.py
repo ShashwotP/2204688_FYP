@@ -35,7 +35,7 @@ def importDataInfo(path):
         data = data._append(dataNew, True)
         print(' ')
         print('Total Images Imported', data.shape[0])
-
+    return data
 
 
 
