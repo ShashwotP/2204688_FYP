@@ -33,6 +33,7 @@ def importDataInfo(path):
         # print(getName(data['center'][0]))
         dataNew['Center'] = dataNew['Center'].apply(getName)
         data = data._append(dataNew, True)
+        print(' ')
 
 
 
