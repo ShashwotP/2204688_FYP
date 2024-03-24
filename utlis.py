@@ -34,7 +34,7 @@ def importDataInfo(path):
         dataNew['Center'] = dataNew['Center'].apply(getName)
         data = data._append(dataNew, True)
     print(' ')
-        print('Total Images Imported', data.shape[0])
+    print('Total Images Imported', data.shape[0])
     return data
 
 
