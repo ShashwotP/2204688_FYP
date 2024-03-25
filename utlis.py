@@ -45,7 +45,7 @@ def balanceData(data,display=True):
     nBin = 31
     samplesPerBin = 300
     hist, bins = np.histogram(data['Steering'], nBin)
-
+    if display:
 
 
 
