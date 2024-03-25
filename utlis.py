@@ -42,6 +42,9 @@ def importDataInfo(path):
 
 #### STEP 2 - VISUALIZE AND BALANCE DATA
 def balanceData(data,display=True):
+    nBin = 31
+
+
 
 
 
