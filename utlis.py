@@ -40,6 +40,8 @@ def importDataInfo(path):
 
 
 
+#### STEP 2 - VISUALIZE AND BALANCE DATA
+
 
 
 
