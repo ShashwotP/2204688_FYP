@@ -47,6 +47,8 @@ def balanceData(data,display=True):
     hist, bins = np.histogram(data['Steering'], nBin)
     if display:
         center = (bins[:-1] + bins[1:]) * 0.5
+        plt.bar(center, hist, width=0.03)
+
 
 
 
