@@ -51,6 +51,7 @@ def balanceData(data,display=True):
         plt.plot((np.min(data['Steering']), np.max(data['Steering'])), (samplesPerBin, samplesPerBin))
         plt.title('Data Visualisation')
         plt.xlabel('Steering Angle')
+        plt.ylabel('No of Samples')
 
 
 
