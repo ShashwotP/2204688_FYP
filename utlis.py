@@ -46,6 +46,8 @@ def balanceData(data,display=True):
     samplesPerBin = 300
     hist, bins = np.histogram(data['Steering'], nBin)
     if display:
+        center = (bins[:-1] + bins[1:]) * 0.5
+
 
 
 
