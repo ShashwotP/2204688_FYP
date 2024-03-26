@@ -49,6 +49,7 @@ def balanceData(data,display=True):
         center = (bins[:-1] + bins[1:]) * 0.5
         plt.bar(center, hist, width=0.03)
         plt.plot((np.min(data['Steering']), np.max(data['Steering'])), (samplesPerBin, samplesPerBin))
+        plt.title('Data Visualisation')
 
 
 
