@@ -54,6 +54,7 @@ def balanceData(data,display=True):
         plt.ylabel('No of Samples')
         plt.show()
     removeindexList = []
+    for j in range(nBin):
 
 
 
