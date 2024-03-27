@@ -55,6 +55,8 @@ def balanceData(data,display=True):
         plt.show()
     removeindexList = []
     for j in range(nBin):
+        binDataList = []
+
 
 
 
