@@ -56,6 +56,8 @@ def balanceData(data,display=True):
     removeindexList = []
     for j in range(nBin):
         binDataList = []
+        for i in range(len(data['Steering'])):
+
 
 
 
