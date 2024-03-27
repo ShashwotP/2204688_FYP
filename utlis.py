@@ -53,6 +53,7 @@ def balanceData(data,display=True):
         plt.xlabel('Steering Angle')
         plt.ylabel('No of Samples')
         plt.show()
+    removeindexList = []
 
 
 
