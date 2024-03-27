@@ -57,6 +57,8 @@ def balanceData(data,display=True):
     for j in range(nBin):
         binDataList = []
         for i in range(len(data['Steering'])):
+            if data['Steering'][i] >= bins[j] and data['Steering'][i] <= bins[j + 1]:
+
 
 
 
