@@ -62,7 +62,7 @@ def balanceData(data,display=True):
         binDataList = shuffle(binDataList)
         binDataList = binDataList[samplesPerBin:]
         removeindexList.extend(binDataList)
-
+    print('Removed Images:', len(removeindexList))
 
 
 
