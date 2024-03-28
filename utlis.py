@@ -61,7 +61,7 @@ def balanceData(data,display=True):
                 binDataList.append(i)
         binDataList = shuffle(binDataList)
         binDataList = binDataList[samplesPerBin:]
-
+        removeindexList.extend(binDataList)
 
 
 
