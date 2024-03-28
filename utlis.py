@@ -59,6 +59,8 @@ def balanceData(data,display=True):
         for i in range(len(data['Steering'])):
             if data['Steering'][i] >= bins[j] and data['Steering'][i] <= bins[j + 1]:
                 binDataList.append(i)
+        binDataList = shuffle(binDataList)
+
 
 
 
