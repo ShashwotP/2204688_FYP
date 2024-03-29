@@ -63,6 +63,8 @@ def balanceData(data,display=True):
         binDataList = binDataList[samplesPerBin:]
         removeindexList.extend(binDataList)
     print('Removed Images:', len(removeindexList))
+    data.drop(data.index[removeindexList], inplace=True)
+
 
 
 
