@@ -67,7 +67,7 @@ def balanceData(data,display=True):
     print('Remaining Images:', len(data))
     if display:
         hist, _ = np.histogram(data['Steering'], (nBin))
-
+        plt.bar(center, hist, width=0.03)
 
 
 
