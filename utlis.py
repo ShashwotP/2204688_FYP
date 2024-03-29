@@ -66,6 +66,8 @@ def balanceData(data,display=True):
     data.drop(data.index[removeindexList], inplace=True)
     print('Remaining Images:', len(data))
     if display:
+        hist, _ = np.histogram(data['Steering'], (nBin))
+
 
 
 
