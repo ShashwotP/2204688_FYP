@@ -72,7 +72,7 @@ def balanceData(data,display=True):
         plt.title('Balanced Data')
         plt.xlabel('Steering Angle')
         plt.ylabel('No of Samples')
-
+        plt.show()
 
 
 
