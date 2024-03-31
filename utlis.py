@@ -76,6 +76,7 @@ def balanceData(data,display=True):
     return data
 
 #### STEP 3 - PREPARE FOR PROCESSING
+def loadData(path, data):
 
 
 
