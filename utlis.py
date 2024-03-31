@@ -75,6 +75,7 @@ def balanceData(data,display=True):
         plt.show()
     return data
 
+#### STEP 3 - PREPARE FOR PROCESSING
 
 
 
