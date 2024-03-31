@@ -77,6 +77,8 @@ def balanceData(data,display=True):
 
 #### STEP 3 - PREPARE FOR PROCESSING
 def loadData(path, data):
+    imagesPath = []
+
 
 
 
