@@ -85,7 +85,7 @@ def loadData(path, data):
         steering.append(float(indexed_data[1]))
     imagesPath = np.asarray(imagesPath)
     steering = np.asarray(steering)
-
+    return imagesPath, steering
 
 
 
