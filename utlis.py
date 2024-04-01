@@ -80,6 +80,8 @@ def loadData(path, data):
     imagesPath = []
     steering = []
     for i in range(len(data)):
+        indexed_data = data.iloc[i]
+
 
 
 
