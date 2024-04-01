@@ -81,6 +81,7 @@ def loadData(path, data):
     steering = []
     for i in range(len(data)):
         indexed_data = data.iloc[i]
+        imagesPath.append(os.path.join(path, indexed_data[0]))
 
 
 
