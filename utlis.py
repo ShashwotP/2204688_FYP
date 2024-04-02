@@ -91,6 +91,8 @@ def loadData(path, data):
 #### STEP 5 - AUGMENT DATA
 def augmentImage(imgPath,steering):
     img = mpimg.imread(imgPath)
+    if np.random.rand() < 0.5:
+
 
 
 
