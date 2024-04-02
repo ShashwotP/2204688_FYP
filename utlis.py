@@ -88,6 +88,10 @@ def loadData(path, data):
     return imagesPath, steering
 
 
+#### STEP 5 - AUGMENT DATA
+
+
+
 
 
 
