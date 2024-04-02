@@ -92,6 +92,8 @@ def loadData(path, data):
 def augmentImage(imgPath,steering):
     img = mpimg.imread(imgPath)
     if np.random.rand() < 0.5:
+        pan = iaa.Affine(translate_percent={"x": (-0.1, 0.1), "y": (-0.1, 0.1)})
+
 
 
 
