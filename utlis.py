@@ -90,6 +90,8 @@ def loadData(path, data):
 
 #### STEP 5 - AUGMENT DATA
 def augmentImage(imgPath,steering):
+    img = mpimg.imread(imgPath)
+
 
 
 
