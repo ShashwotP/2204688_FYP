@@ -96,6 +96,7 @@ def augmentImage(imgPath,steering):
         img = pan.augment_image(img)
     if np.random.rand() < 0.5:
         zoom = iaa.Affine(scale=(1, 1.2))
+        img = zoom.augment_image(img)
 
 
 
