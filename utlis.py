@@ -98,6 +98,8 @@ def augmentImage(imgPath,steering):
         zoom = iaa.Affine(scale=(1, 1.2))
         img = zoom.augment_image(img)
     if np.random.rand() < 0.5:
+        brightness = iaa.Multiply((0.5, 1.2))
+
 
 
 
