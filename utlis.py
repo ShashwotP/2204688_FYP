@@ -108,7 +108,7 @@ def augmentImage(imgPath,steering):
 imgRe,st = augmentImage('DataCollected/IMG12/Image_17081497507544.jpg',0)
 mpimg.imsave('Result.jpg',imgRe)
 plt.imshow(imgRe)
-
+plt.show()
 
 
 
