@@ -105,6 +105,7 @@ def augmentImage(imgPath,steering):
         steering = -steering
     return img, steering
 
+imgRe,st = augmentImage('DataCollected/IMG12/Image_17081497507544.jpg',0)
 
 
 
