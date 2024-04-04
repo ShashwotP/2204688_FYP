@@ -102,6 +102,8 @@ def augmentImage(imgPath,steering):
         img = brightness.augment_image(img)
     if np.random.rand() < 0.5:
         img = cv2.flip(img, 1)
+        steering = -steering
+
 
 
 
