@@ -101,6 +101,8 @@ def augmentImage(imgPath,steering):
         brightness = iaa.Multiply((0.5, 1.2))
         img = brightness.augment_image(img)
     if np.random.rand() < 0.5:
+        img = cv2.flip(img, 1)
+
 
 
 
