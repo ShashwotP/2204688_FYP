@@ -114,6 +114,7 @@ def augmentImage(imgPath,steering):
 def preProcess(img):
     img = img[54:120, :, :]
     img = cv2.cvtColor(img, cv2.COLOR_RGB2YUV)
+    img = cv2.GaussianBlur(img, (3, 3), 0)
 
 
 
