@@ -106,6 +106,7 @@ def augmentImage(imgPath,steering):
     return img, steering
 
 imgRe,st = augmentImage('DataCollected/IMG12/Image_17081497507544.jpg',0)
+mpimg.imsave('Result.jpg',imgRe)
 
 
 
