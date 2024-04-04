@@ -113,6 +113,8 @@ def augmentImage(imgPath,steering):
 #### STEP 6 - PREPROCESS
 def preProcess(img):
     img = img[54:120, :, :]
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2YUV)
+
 
 
 
