@@ -112,6 +112,7 @@ def augmentImage(imgPath,steering):
 
 #### STEP 6 - PREPROCESS
 def preProcess(img):
+    img = img[54:120, :, :]
 
 
 
