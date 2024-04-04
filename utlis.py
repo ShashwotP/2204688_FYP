@@ -110,6 +110,7 @@ def augmentImage(imgPath,steering):
 # plt.imshow(imgRe)
 # plt.show()
 
+#### STEP 6 - PREPROCESS
 
 
 
