@@ -119,6 +119,7 @@ def preProcess(img):
     img = img / 255
     return img
 
+imgRe = preProcess(mpimg.imread('DataCollected/IMG12/Image_17081497376683.jpg'))
 
 
 
