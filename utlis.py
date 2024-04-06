@@ -121,6 +121,7 @@ def preProcess(img):
 
 imgRe = preProcess(mpimg.imread('DataCollected/IMG12/Image_17081497376683.jpg'))
 # mpimg.imsave('Result.jpg',imgRe)
+plt.imshow(imgRe)
 
 
 
