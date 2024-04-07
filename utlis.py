@@ -127,6 +127,9 @@ plt.show()
 
 #### STEP 7 - CREATE MODEL
 def createModel():
+    model = Sequential()
+
+
 
 
 
