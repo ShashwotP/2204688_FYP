@@ -128,6 +128,7 @@ plt.show()
 #### STEP 7 - CREATE MODEL
 def createModel():
     model = Sequential()
+    model.add(Convolution2D(24, (5, 5), (2, 2), input_shape=(66, 200, 3), activation='elu'))
 
 
 
