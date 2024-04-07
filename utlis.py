@@ -132,7 +132,7 @@ def createModel():
     model.add(Convolution2D(36, (5, 5), (2, 2), activation='elu'))
     model.add(Convolution2D(48, (5, 5), (2, 2), activation='elu'))
     model.add(Convolution2D(64, (3, 3), activation='elu'))
-
+    model.add(Convolution2D(64, (3, 3), activation='elu'))
 
 
 
