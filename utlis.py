@@ -125,6 +125,7 @@ plt.imshow(imgRe)
 plt.show()
 
 
+#### STEP 7 - CREATE MODEL
 
 
 
