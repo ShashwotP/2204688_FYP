@@ -138,7 +138,7 @@ def createModel():
     model.add(Dense(100, activation='elu'))
     model.add(Dense(50, activation='elu'))
     model.add(Dense(10, activation='elu'))
-
+    model.add(Dense(1))
 
 
 
