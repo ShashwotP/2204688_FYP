@@ -134,6 +134,9 @@ def createModel():
     model.add(Convolution2D(64, (3, 3), activation='elu'))
     model.add(Convolution2D(64, (3, 3), activation='elu'))
 
+    model.add(Flatten())
+
+
 
 
 
