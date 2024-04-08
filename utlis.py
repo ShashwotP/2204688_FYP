@@ -141,7 +141,7 @@ def createModel():
     model.add(Dense(1))
 
     model.compile(Adam(lr=0.0001), loss='mse')
-
+    return model
 
 
 
