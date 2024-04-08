@@ -140,6 +140,8 @@ def createModel():
     model.add(Dense(10, activation='elu'))
     model.add(Dense(1))
 
+    model.compile(Adam(lr=0.0001), loss='mse')
+
 
 
 
