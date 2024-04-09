@@ -144,6 +144,7 @@ def createModel():
     return model
 
 
+#### STEP 8 - TRAINNING
 
 
 
