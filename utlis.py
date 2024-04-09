@@ -147,6 +147,8 @@ def createModel():
 #### STEP 8 - TRAINNING
 def dataGen(imagesPath, steeringList, batchSize, trainFlag):
     while True:
+        imgBatch = []
+
 
 
 
