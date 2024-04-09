@@ -150,6 +150,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
         imgBatch = []
         steeringBatch = []
 
+        for i in range(batchSize):
 
 
 
