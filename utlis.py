@@ -148,6 +148,8 @@ def createModel():
 def dataGen(imagesPath, steeringList, batchSize, trainFlag):
     while True:
         imgBatch = []
+        steeringBatch = []
+
 
 
 
