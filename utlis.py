@@ -154,6 +154,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
             index = random.randint(0, len(imagesPath) - 1)
             if trainFlag:
                 img, steering = augmentImage(imagesPath[index], steeringList[index])
+            else:
 
 
 
