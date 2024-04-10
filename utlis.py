@@ -152,6 +152,8 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
 
         for i in range(batchSize):
             index = random.randint(0, len(imagesPath) - 1)
+            if trainFlag:
+
 
 
 
