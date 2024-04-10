@@ -156,6 +156,8 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
                 img, steering = augmentImage(imagesPath[index], steeringList[index])
             else:
                 img = mpimg.imread(imagesPath[index])
+                steering = steeringList[index]
+
 
 
 
