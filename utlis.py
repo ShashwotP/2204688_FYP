@@ -159,6 +159,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
                 steering = steeringList[index]
             img = preProcess(img)
             imgBatch.append(img)
+            steeringBatch.append(steering)
 
 
 
