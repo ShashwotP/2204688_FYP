@@ -160,7 +160,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
             img = preProcess(img)
             imgBatch.append(img)
             steeringBatch.append(steering)
-
+        yield (np.asarray(imgBatch), np.asarray(steeringBatch))
 
 
 
