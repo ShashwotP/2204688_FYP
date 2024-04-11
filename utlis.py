@@ -158,6 +158,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
                 img = mpimg.imread(imagesPath[index])
                 steering = steeringList[index]
             img = preProcess(img)
+            imgBatch.append(img)
 
 
 
