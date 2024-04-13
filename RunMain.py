@@ -5,3 +5,7 @@ from tensorflow.keras.models import load_model
 
 import WebCamModule as wM
 import MotorModule as mM
+
+
+#######################################
+steeringSen = 0.70  # Steering Sensitivity
