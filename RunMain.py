@@ -9,3 +9,4 @@ import MotorModule as mM
 
 #######################################
 steeringSen = 0.70  # Steering Sensitivity
+maxThrottle = 0.22  # Forward Speed %
