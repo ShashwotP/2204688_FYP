@@ -14,3 +14,5 @@ motor = mM.Motor(2, 3, 4, 17, 22, 27) # Pin Numbers
 model = load_model('C:/Users/Dell/PycharmProjects/Trial/model.h5')
 #model1 = load_model()
 ######################################
+
+def preProcess(img):
