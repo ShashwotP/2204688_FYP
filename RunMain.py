@@ -18,4 +18,5 @@ model = load_model('C:/Users/Dell/PycharmProjects/Trial/model.h5')
 def preProcess(img):
     img = img[54:120, :, :]
     img = cv2.cvtColor(img, cv2.COLOR_RGB2YUV)
+    img = cv2.GaussianBlur(img, (3, 3), 0)
 
