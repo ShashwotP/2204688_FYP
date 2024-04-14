@@ -16,3 +16,5 @@ model = load_model('C:/Users/Dell/PycharmProjects/Trial/model.h5')
 ######################################
 
 def preProcess(img):
+    img = img[54:120, :, :]
+
