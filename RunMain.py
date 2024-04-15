@@ -24,3 +24,5 @@ def preProcess(img):
     return img
 
 print("Start")
+while True:
+
