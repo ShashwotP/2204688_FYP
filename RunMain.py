@@ -27,5 +27,5 @@ print("Start")
 while True:
     img = wM.getImg(True, size=[240, 120])
     img = np.asarray(img)
-
+    img = preProcess(img)
 
