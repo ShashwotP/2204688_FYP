@@ -22,3 +22,5 @@ def preProcess(img):
     img = cv2.resize(img, (200, 66))
     img = img / 255
     return img
+
+print("Start")
