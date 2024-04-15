@@ -25,4 +25,6 @@ def preProcess(img):
 
 print("Start")
 while True:
+    img = wM.getImg(True, size=[240, 120])
+
 
