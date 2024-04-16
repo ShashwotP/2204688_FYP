@@ -30,5 +30,6 @@ while True:
     img = preProcess(img)
     img = np.array([img])
     # red = model1.predict(img)
+    # if red == True:
 
 
