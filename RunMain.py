@@ -34,5 +34,6 @@ while True:
     # motor.stop()
     # else:
     steering = float(model.predict(img))
+    print(steering * steeringSen)
 
 
