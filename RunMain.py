@@ -28,4 +28,7 @@ while True:
     img = wM.getImg(True, size=[240, 120])
     img = np.asarray(img)
     img = preProcess(img)
+    img = np.array([img])
+    # red = model1.predict(img)
+
 
