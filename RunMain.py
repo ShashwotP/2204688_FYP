@@ -32,5 +32,6 @@ while True:
     # red = model1.predict(img)
     # if red == True:
     # motor.stop()
+    # else:
 
 
