@@ -36,5 +36,5 @@ while True:
     steering = float(model.predict(img))
     print(steering * steeringSen)
     motor.move(maxThrottle, -steering * steeringSen)
-
+    cv2.waitKey(1)
 
