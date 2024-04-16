@@ -35,5 +35,6 @@ while True:
     # else:
     steering = float(model.predict(img))
     print(steering * steeringSen)
+    motor.move(maxThrottle, -steering * steeringSen)
 
 
