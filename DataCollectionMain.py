@@ -6,6 +6,9 @@ import cv2 #importing OpenCV library
 from time import sleep #importing the sleep function from time module
 
 
+maxThrottle = 0.25 #maximum throttle value
+
+
 
 
 
