@@ -11,6 +11,7 @@ motor = mM.Motor(2, 3, 4, 17, 22, 27) #initialize motor object with specified GP
 record = 0 #initialize record variable
 
 while True: #start infinite loop
+    joyVal = jsM.getJS()  # get joystick values
 
 
 
