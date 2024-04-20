@@ -15,6 +15,7 @@ while True: #start infinite loop
     # print(joyVal)
     steering = joyVal['axis1']  # get steering value from joystick
     throttle = joyVal['o'] * maxThrottle  # get throttle value from joystick and scale it
+    if joyVal['share'] == 1:  # if the 'share' button is pressed
 
 
 
