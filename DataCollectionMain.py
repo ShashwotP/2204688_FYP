@@ -25,6 +25,7 @@ while True: #start infinite loop
             dcM.saveData(img, steering)  # save image and steering data
         elif record == 2:  # on the second press of the 'share' button
             dcM.saveLog()  # save log file containing collected data
+            record = 0  # reset record counter
 
 
 
