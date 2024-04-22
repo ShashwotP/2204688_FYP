@@ -24,6 +24,7 @@ while True: #start infinite loop
             img = wM.getImg(True, size=[240, 120])  # capture image from webcam
             dcM.saveData(img, steering)  # save image and steering data
         elif record == 2:  # on the second press of the 'share' button
+            dcM.saveLog()  # save log file containing collected data
 
 
 
