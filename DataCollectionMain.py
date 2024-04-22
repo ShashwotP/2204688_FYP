@@ -27,6 +27,7 @@ while True: #start infinite loop
             dcM.saveLog()  # save log file containing collected data
             record = 0  # reset record counter
             if joyVal['o'] == 1:  # if 'o' button is pressed (throttle active)
+                motor.move(throttle, 0)  # move motor with throttle value
 
 
 
