@@ -6,4 +6,5 @@ from datetime import datetime #importing datetime module
 
 global imgList, steeringList #declaring global variables
 countFolder = 0 #initializing folder count variable
+count = 0 #initializing count variable
 
