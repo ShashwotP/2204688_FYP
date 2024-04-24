@@ -4,4 +4,5 @@ import cv2 #importing OpenCV library
 from datetime import datetime #importing datetime module
 
 
+global imgList, steeringList #declaring global variables
 
