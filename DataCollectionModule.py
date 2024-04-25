@@ -10,3 +10,6 @@ count = 0 #initializing count variable
 imgList = [] #initializing empty list to store images
 steeringList = []  #initializing empty list to store steering data
 
+
+
+#get current directory path
