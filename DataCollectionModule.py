@@ -17,5 +17,6 @@ myDirectory = os.path.join(os.getcwd(), 'DataCollected') #get the current direct
 print("Hello********************") #print a message
 print(myDirectory) #print the current directory path
 
+#creates a new folder that is based on previous folder count
 
 
