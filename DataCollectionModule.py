@@ -13,3 +13,5 @@ steeringList = []  #initializing empty list to store steering data
 
 
 #get current directory path
+myDirectory = os.path.join(os.getcwd(), 'DataCollected') #get the current directory path
+
