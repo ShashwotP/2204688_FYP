@@ -18,6 +18,7 @@ print("Hello********************") #print a message
 print(myDirectory) #print the current directory path
 
 #creates a new folder that is based on previous folder count
+while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')): #check if folder exists
 
 
 
