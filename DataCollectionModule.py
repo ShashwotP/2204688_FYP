@@ -20,6 +20,7 @@ print(myDirectory) #print the current directory path
 #creates a new folder that is based on previous folder count
 while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')): #check if folder exists
     countFolder += 1  # increment the folder count
+newPath = myDirectory + "/IMG" + str(countFolder)  # create a new folder path
 
 
 
