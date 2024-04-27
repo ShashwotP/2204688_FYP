@@ -26,4 +26,5 @@ os.makedirs(newPath)  # create a new folder
 # SAVE IMAGES IN THE FOLDER
 def saveData(img, steering):
     global imgList, steeringList  # access global variables
+    now = datetime.now()  # get current date and time
 
