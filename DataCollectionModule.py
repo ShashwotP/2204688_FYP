@@ -31,5 +31,6 @@ def saveData(img, steering):
     # print("timestamp =", timestamp)
     fileName = os.path.join(newPath, f'Image_{timestamp}.jpg')  # create file name for the image
     cv2.imwrite(fileName, img)  # save image
+    imgList.append(fileName)  # append image file name to imgList
 
 
