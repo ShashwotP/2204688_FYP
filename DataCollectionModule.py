@@ -29,5 +29,6 @@ def saveData(img, steering):
     now = datetime.now()  # get current date and time
     timestamp = str(datetime.timestamp(now)).replace('.', '')  # convert timestamp to string
     # print("timestamp =", timestamp)
+    fileName = os.path.join(newPath, f'Image_{timestamp}.jpg')  # create file name for the image
 
 
