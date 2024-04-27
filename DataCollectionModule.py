@@ -30,5 +30,6 @@ def saveData(img, steering):
     timestamp = str(datetime.timestamp(now)).replace('.', '')  # convert timestamp to string
     # print("timestamp =", timestamp)
     fileName = os.path.join(newPath, f'Image_{timestamp}.jpg')  # create file name for the image
+    cv2.imwrite(fileName, img)  # save image
 
 
