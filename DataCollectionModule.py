@@ -23,5 +23,3 @@ while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')): #chec
 newPath = myDirectory + "/IMG" + str(countFolder)  # create a new folder path
 os.makedirs(newPath)  # create a new folder
 
-
-
