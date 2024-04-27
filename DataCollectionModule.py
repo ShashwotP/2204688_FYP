@@ -27,4 +27,5 @@ os.makedirs(newPath)  # create a new folder
 def saveData(img, steering):
     global imgList, steeringList  # access global variables
     now = datetime.now()  # get current date and time
+    timestamp = str(datetime.timestamp(now)).replace('.', '')  # convert timestamp to string
 
