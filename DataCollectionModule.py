@@ -36,3 +36,4 @@ def saveData(img, steering):
 
 
 # SAVE LOG FILE WHEN THE SESSION ENDS
+def saveLog():
