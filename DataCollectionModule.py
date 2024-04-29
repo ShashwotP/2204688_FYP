@@ -38,6 +38,7 @@ def saveData(img, steering):
 # SAVE LOG FILE WHEN THE SESSION ENDS
 def saveLog():
     global imgList, steeringList  # access global variables
+    # create a dictionary with image file names and steering data
 
 
 
