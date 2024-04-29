@@ -39,6 +39,8 @@ def saveData(img, steering):
 def saveLog():
     global imgList, steeringList  # access global variables
     # create a dictionary with image file names and steering data
+    rawData = {'Image': imgList,
+               'Steering': steeringList}
 
 
 
