@@ -45,3 +45,5 @@ def saveLog():
     # Save DataFrame to a CSV file
     df.to_csv(os.path.join(myDirectory, f'log_{str(countFolder)}.csv'), index=False, header=False)
     print('Log Saved')  # print a message
+    print('Total Images: ', len(imgList))  # print the total number of images saved
+
