@@ -43,3 +43,4 @@ def saveLog():
                'Steering': steeringList}
     df = pd.DataFrame(rawData)  # create a pandas DataFrame
     # Save DataFrame to a CSV file
+    df.to_csv(os.path.join(myDirectory, f'log_{str(countFolder)}.csv'), index=False, header=False)
