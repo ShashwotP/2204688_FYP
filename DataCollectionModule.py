@@ -42,3 +42,4 @@ def saveLog():
     rawData = {'Image': imgList,
                'Steering': steeringList}
     df = pd.DataFrame(rawData)  # create a pandas DataFrame
+    # Save DataFrame to a CSV file
