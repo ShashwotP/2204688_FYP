@@ -42,5 +42,3 @@ def saveLog():
     rawData = {'Image': imgList,
                'Steering': steeringList}
 
-
-
