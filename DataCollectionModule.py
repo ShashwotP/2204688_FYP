@@ -41,4 +41,4 @@ def saveLog():
     # create a dictionary with image file names and steering data
     rawData = {'Image': imgList,
                'Steering': steeringList}
-
+    df = pd.DataFrame(rawData)  # create a pandas DataFrame
