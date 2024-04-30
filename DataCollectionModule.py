@@ -44,3 +44,4 @@ def saveLog():
     df = pd.DataFrame(rawData)  # create a pandas DataFrame
     # Save DataFrame to a CSV file
     df.to_csv(os.path.join(myDirectory, f'log_{str(countFolder)}.csv'), index=False, header=False)
+    print('Log Saved')  # print a message
