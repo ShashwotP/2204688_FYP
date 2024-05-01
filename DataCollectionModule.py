@@ -53,5 +53,6 @@ if __name__ == '__main__':
     for x in range(10):  # capture 10 images
         _, img = cap.read()  # read frame from webcam
         print(img)  # print the image array
+        saveData(img, 0.5)  # save image with steering value of 0.5
 
 
