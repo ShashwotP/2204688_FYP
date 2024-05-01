@@ -47,3 +47,4 @@ def saveLog():
     print('Log Saved')  # print a message
     print('Total Images: ', len(imgList))  # print the total number of images saved
 
+
