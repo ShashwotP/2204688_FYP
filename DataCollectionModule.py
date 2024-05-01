@@ -48,3 +48,5 @@ def saveLog():
     print('Total Images: ', len(imgList))  # print the total number of images saved
 
 
+if __name__ == '__main__':
+
