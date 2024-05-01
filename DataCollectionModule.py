@@ -50,4 +50,5 @@ def saveLog():
 
 if __name__ == '__main__':
     cap = cv2.VideoCapture(0)  # initialize video capture from webcam
+    for x in range(10):  # capture 10 images
 
