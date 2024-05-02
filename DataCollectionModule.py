@@ -56,5 +56,6 @@ if __name__ == '__main__':
         saveData(img, 0.5)  # save image with steering value of 0.5
         cv2.waitKey(1)  # wait for a key press
         cv2.imshow("Image", img)  # display the image
+    saveLog()  # save log file containing image file names and steering data
 
 
