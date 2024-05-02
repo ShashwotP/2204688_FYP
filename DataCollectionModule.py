@@ -54,3 +54,6 @@ if __name__ == '__main__':
         _, img = cap.read()  # read frame from webcam
         print(img)  # print the image array
         saveData(img, 0.5)  # save image with steering value of 0.5
+        cv2.waitKey(1)  # wait for a key press
+
+
