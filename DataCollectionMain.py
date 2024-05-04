@@ -10,5 +10,3 @@ maxThrottle = 0.25 #maximum throttle value
 
 
 
-
-
