@@ -12,5 +12,11 @@ record = 0 #initialize record variable
 
 
 while True: #start infinite loop
+    joyVal = jsM.getJS()  # get joystick values
+
+
+
+
+
 
 
