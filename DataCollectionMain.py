@@ -15,6 +15,7 @@ while True: #start infinite loop
     joyVal = jsM.getJS()  # get joystick values
     # print(joyVal)
     steering = joyVal['axis1']  # get steering value from joystick
+    throttle = joyVal['o'] * maxThrottle  # get throttle value from joystick and scale it
 
 
 
