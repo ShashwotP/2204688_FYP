@@ -18,5 +18,3 @@ while True: #start infinite loop
 
 
 
-
-
