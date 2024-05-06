@@ -20,4 +20,5 @@ while True: #start infinite loop
         # if recording has just started
         if record == 0: print('Recording Started ...')  # print message indicating recording has started
         record += 1  # increment record counter
+        sleep(0.300)  # wait for a short duration
 
