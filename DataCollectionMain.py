@@ -21,4 +21,5 @@ while True: #start infinite loop
         if record == 0: print('Recording Started ...')  # print message indicating recording has started
         record += 1  # increment record counter
         sleep(0.300)  # wait for a short duration
+        if record == 1:  # on the first press of the 'share' button
 
