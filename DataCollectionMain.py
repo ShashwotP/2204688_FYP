@@ -22,4 +22,5 @@ while True: #start infinite loop
         record += 1  # increment record counter
         sleep(0.300)  # wait for a short duration
         if record == 1:  # on the first press of the 'share' button
+            img = wM.getImg(True, size=[240, 120])  # capture image from webcam
 
