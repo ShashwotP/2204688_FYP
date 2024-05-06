@@ -19,7 +19,3 @@ while True: #start infinite loop
     if joyVal['share'] == 1:  # if the 'share' button is pressed
         # if recording has just started
 
-
-
-
-
