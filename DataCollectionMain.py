@@ -27,3 +27,4 @@ while True: #start infinite loop
         elif record == 2:  # on the second press of the 'share' button
             dcM.saveLog()  # save log file containing collected data
             record = 0  # reset record counter
+        if joyVal['o'] == 1:  # if 'o' button is pressed (throttle active)
