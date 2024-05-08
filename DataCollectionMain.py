@@ -31,4 +31,4 @@ while True: #start infinite loop
             motor.move(throttle, 0)  # move motor with throttle value
         else:
             motor.move(throttle, -steering)  # move motor with throttle and steering values
-
+            cv2.waitKey(1)  # wait for a key press
