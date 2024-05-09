@@ -56,4 +56,7 @@ while True: #start infinite loop
 # newPath = myDirectory + "/IMG"+str(countFolder)
             # os.makedirs(newPath)
             #
+# #save images in folder
+            # def saveData(img,steering):
+            #     global imgList, steeringList
 
