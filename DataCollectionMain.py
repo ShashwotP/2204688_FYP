@@ -32,3 +32,11 @@ while True: #start infinite loop
         else:
             motor.move(throttle, -steering)  # move motor with throttle and steering values
             cv2.waitKey(1)  # wait for a key press
+
+
+# import pandas as pd
+            # import os
+            # import cv2
+            # from datetime import datetime
+            #
+
