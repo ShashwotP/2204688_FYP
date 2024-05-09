@@ -53,4 +53,7 @@ while True: #start infinite loop
             # #creates a new folder that is based on previous folder count
             # while os.path.exists(os.path.join(myDirectory, f'IMG{str(countFolder)}')):
             #     countFolder += 1
+# newPath = myDirectory + "/IMG"+str(countFolder)
+            # os.makedirs(newPath)
+            #
 
