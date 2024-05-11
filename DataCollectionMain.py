@@ -66,4 +66,7 @@ while True: #start infinite loop
             #     cv2.imwrite(fileName, img)
 #     imgList.append(fileName)
             #     steeringList.append(steering)
+#
+            # #saves log file when file is saved
+            # def saveLog():
 
