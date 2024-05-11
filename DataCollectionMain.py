@@ -69,4 +69,6 @@ while True: #start infinite loop
 #
             # #saves log file when file is saved
             # def saveLog():
+#     global imgList, steeringList
+            #     rawData = {'Image': imgList,
 
