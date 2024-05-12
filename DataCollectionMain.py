@@ -77,3 +77,6 @@ while True: #start infinite loop
             #     print('Log Saved')
  #     print('Total Images: ',len(imgList))
             #
+# if __name__ == '__main__':
+            #     cap = cv2.VideoCapture(1)
+
