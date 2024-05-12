@@ -75,4 +75,5 @@ while True: #start infinite loop
             #     df = pd.DataFrame(rawData)
  #     df.to_csv(os.path.join(myDirectory,f'log_{str(countFolder)}.csv'), index=False, header=False)
             #     print('Log Saved')
-
+ #     print('Total Images: ',len(imgList))
+            #
