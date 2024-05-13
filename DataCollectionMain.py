@@ -84,3 +84,4 @@ while True: #start infinite loop
 #         saveData(img, 0.5)
 #         cv2.waitKey(1)
             #         cv2.imshow("Image", img)
+#     saveLog()
