@@ -81,3 +81,4 @@ while True: #start infinite loop
             #     cap = cv2.VideoCapture(1)
  #     for x in range(10):
             #         _, img = cap.read()
+#         saveData(img, 0.5)
