@@ -82,3 +82,5 @@ while True: #start infinite loop
  #     for x in range(10):
             #         _, img = cap.read()
 #         saveData(img, 0.5)
+#         cv2.waitKey(1)
+            #         cv2.imshow("Image", img)
