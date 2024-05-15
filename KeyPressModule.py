@@ -12,3 +12,5 @@ def getKey(keyName):  # function getKey
     myKey = getattr(pygame, 'K_{}'.format(
         keyName))  # constructs the name of desired key from keyname and retrieves corresponding key constant
     if keyInput[myKey]:  # checks desired key is pressed
+        ans = True
+        print('key a awas pressed')
