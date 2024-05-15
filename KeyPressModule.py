@@ -10,3 +10,5 @@ def getKey(keyName):  # function getKey
     for eve in pygame.event.get(): pass
     keyInput = pygame.key.get_pressed()  # retrieves current state of all keyboard keys
     myKey = getattr(pygame, 'K_{}'.format(
+        keyName))  # constructs the name of desired key from keyname and retrieves corresponding key constant
+    if keyInput[myKey]:  # checks desired key is pressed
