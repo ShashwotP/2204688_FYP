@@ -15,3 +15,5 @@ def getKey(keyName):  # function getKey
         ans = True
         print('key a awas pressed')
     pygame.display.update()  # updates display and returns ans which indicates whether desired key was pressed or not
+    return ans
+
