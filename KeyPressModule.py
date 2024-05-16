@@ -18,3 +18,4 @@ def getKey(keyName):  # function getKey
     return ans
 
 def main():
+    if getKey('a'):
