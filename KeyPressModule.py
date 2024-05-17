@@ -22,4 +22,5 @@ def main():
         print('Key a was pressed')
     if getKey('b'):
         print('Key b was pressed')
+    if getKey('LEFT'):
 
