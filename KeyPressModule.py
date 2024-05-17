@@ -20,3 +20,4 @@ def getKey(keyName):  # function getKey
 def main():
     if getKey('a'):
         print('Key a was pressed')
+    if getKey('b'):
