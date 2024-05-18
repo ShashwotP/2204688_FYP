@@ -35,6 +35,7 @@ if __name__ == '__main__':
 import KeyPressModule as kp
 
 kp.init()
+def main():
 
 
 
