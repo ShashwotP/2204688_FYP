@@ -27,5 +27,12 @@ def main():
     if getKey('RIGHT'):
         print('Key right was pressed')
 
+if __name__ == '__main__':
+    init()
+    while True:
+        main()
+
+import KeyPressModule as kp
+
 
 
