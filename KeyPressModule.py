@@ -45,5 +45,5 @@ def main():
     elif kp.getKey('RIGHT'):
         motor.move(0.5, -0.3, 0.1)
     else:
-
+        motor.stop(0.1)
 
