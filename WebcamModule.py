@@ -5,3 +5,4 @@ cap = cv2.VideoCapture(0) #initialize video capture from webcam
 cap.set(3, frameWidth)  #set frame width
 cap.set(4, frameHeight)  #set frame height
 while True:  #start infinite loop
+    success, img = cap.read()  # read frame from webcam
