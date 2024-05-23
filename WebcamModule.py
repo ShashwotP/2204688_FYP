@@ -8,3 +8,4 @@ while True:  #start infinite loop
     success, img = cap.read()  # read frame from webcam
     cv2.imshow("Result", img)  # display the frame
     if cv2.waitKey(1) and 0xFF == ord('q'):  # wait for 'q' key to be pressed to break the loop
+        break
