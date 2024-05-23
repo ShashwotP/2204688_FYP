@@ -9,3 +9,6 @@ while True:  #start infinite loop
     cv2.imshow("Result", img)  # display the frame
     if cv2.waitKey(1) and 0xFF == ord('q'):  # wait for 'q' key to be pressed to break the loop
         break
+
+        """
+        -This module gets an image through the webcam
