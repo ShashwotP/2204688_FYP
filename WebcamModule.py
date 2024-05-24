@@ -15,3 +15,4 @@ while True:  #start infinite loop
 using the opencv package
         -Display can be turned on or off
 -Image size can be defined
+"""
