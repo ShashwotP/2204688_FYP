@@ -16,3 +16,6 @@ using the opencv package
         -Display can be turned on or off
 -Image size can be defined
 """
+
+import cv2  # importing OpenCV library
+
