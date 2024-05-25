@@ -18,4 +18,3 @@ using the opencv package
 """
 
 import cv2  # importing OpenCV library
-
