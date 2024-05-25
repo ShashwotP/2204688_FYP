@@ -19,5 +19,6 @@ using the opencv package
 
 import cv2  # importing OpenCV library
 cap = cv2.VideoCapture(0)  # initialize video capture from webcam
+# function to capture image from webcam
 
 
