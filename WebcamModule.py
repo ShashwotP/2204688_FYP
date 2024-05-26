@@ -24,3 +24,4 @@ def getImg(display=False, size=[480, 240]):
     _, img = cap.read()  # read frame from webcam
     img = cv2.resize(img, (size[0], size[1]))  # resize image
     if display:  # if display is True
+        cv2.imshow('IMG', img)  # display the image
