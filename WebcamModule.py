@@ -22,3 +22,4 @@ cap = cv2.VideoCapture(0)  # initialize video capture from webcam
 # function to capture image from webcam
 def getImg(display=False, size=[480, 240]):
     _, img = cap.read()  # read frame from webcam
+    img = cv2.resize(img, (size[0], size[1]))  # resize image
